@@ -1,0 +1,13 @@
+name = input("Enter customer name: ")
+phone = input("Enter phone number: ")
+bill = input("Enter bill number: ")
+date = input("Enter bill date: ")
+p1 = input("Enter product 1 name: ")
+q1 = int(input("Enter product 1 quantity: "))
+price1 = float(input("Enter product 1 price: "))
+p2 = input("Enter product 2 name: ")
+q2 = int(input("Enter product 2 quantity: "))
+price2 = float(input("Enter product 2 price: "))
+total1 = q1 * price1
+total2 = q2 * price2
+total = total1 + total2
